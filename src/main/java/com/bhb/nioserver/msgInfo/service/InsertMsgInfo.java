@@ -20,6 +20,6 @@ public class InsertMsgInfo implements Runnable{
      @Override
     public void run() {
         UserInfoServiceImpl userInfoService = (UserInfoServiceImpl) SpringUtil.getBean("userInfoServiceImpl");
-        //TODO:插入数据库记录表
+        //插入数据库记录表
     }
 }
